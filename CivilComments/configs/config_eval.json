@@ -1,0 +1,16 @@
+{
+  "phase": "eval",
+  "dataset": "small_civil_comments",
+  "tokenizer": "bert-base-uncased",
+  "model": "bert-base-uncased",
+  "use_data_parallel": false,
+  "sampling_method": "simplex",
+  "use_sample4eval": false,
+  "num_trigger_word": 5,
+  "trigger_on_embedding": false,
+  "exp_name": "",
+  "random_seed": 0,
+  "batch_size": 128,
+  "use_git": true,
+  "inject_trigger": ""
+}
