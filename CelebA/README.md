@@ -57,11 +57,11 @@ We will provide specific commands to enable training with different methods to r
 The standard training method trains the model with empirical risk minimization (ERM). 
 
 ```
-python3 train.py --data-dir PATH_TO_DATA --target-attrs Blond_Hair --domain-attrs Male --method std --arch resnet18 --result-dir std -seed 1234
+python3 train.py --data-dir PATH_TO_DATA --target-attrs Blond_Hair --domain-attrs Male --method std --arch resnet18 --result-dir std --seed 1234
 ```
 
 ```
-python3 train.py --data-dir PATH_TO_DATA --target-attrs Blond_Hair --domain-attrs Male --method std --arch resnet18 --result-dir std -seed 2022 --adversary-with-y
+python3 train.py --data-dir PATH_TO_DATA --target-attrs Blond_Hair --domain-attrs Male --method std --arch resnet18 --result-dir std --seed 2022 --adversary-with-y
 ```
 
 
